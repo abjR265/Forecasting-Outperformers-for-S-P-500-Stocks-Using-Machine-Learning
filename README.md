@@ -65,21 +65,20 @@ Predictions from the Stacking Classifier are used to simulate a trading strategy
    -  Evaluate annualized returns and active returns.
 ### Key formula:
 
-Annualized Return:
+**Annualized Return:**
 
 $$
-R_{annualized} = \bigg(\frac{V_{end}}{V_{start}} \bigg) ^{\frac{252}T} - 1
+R_{\text{annualized}} = \bigg(\frac{V_{\text{end}}}{V_{\text{start}}}\bigg)^{\frac{252}{T}} - 1
 $$
-where $V_{start}$ and $V_{end}$ are portfolio values at the start and end of the period, and $T$ is the number of trading days over the period. 
 
-Annualized Active Return:
+where \( V_{\text{start}} \) and \( V_{\text{end}} \) are portfolio values at the start and end of the period, and \( T \) is the number of trading days over the period.
 
-$$
-R_{ann,\ 
-active} = R_{ann,\ portfolio} - R_{ann,\ 
-benchmark}
+**Annualized Active Return:**
 
 $$
+R_{\text{ann, active}} = R_{\text{ann, portfolio}} - R_{\text{ann, benchmark}}
+$$
+
 ## Repository Structure
 
 ```yaml.
