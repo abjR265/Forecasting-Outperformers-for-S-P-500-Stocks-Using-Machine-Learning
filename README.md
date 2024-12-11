@@ -71,7 +71,7 @@ $$
 R_{\text{annualized}} = \bigg(\frac{V_{\text{end}}}{V_{\text{start}}}\bigg)^{\frac{252}{T}} - 1
 $$
 
-where \( V_{\text{start}} \) and \( V_{\text{end}} \) are portfolio values at the start and end of the period, and \( T \) is the number of trading days over the period.
+where V_start and V_end are portfolio values at the start and end of the period, and \( T \) is the number of trading days over the period.
 
 **Annualized Active Return:**
 
